@@ -50,3 +50,11 @@ bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1b-1
++ Revision: 813474
+- Import texlive-embrac
+- Import texlive-embrac
+
