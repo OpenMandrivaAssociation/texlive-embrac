@@ -1,11 +1,11 @@
-# revision 27178
+# revision 30450
 # category Package
 # catalog-ctan /macros/latex/contrib/embrac
-# catalog-date 2012-07-24 16:08:54 +0200
+# catalog-date 2013-05-13 20:07:16 +0200
 # catalog-license lppl1.3
-# catalog-version 0.1b
+# catalog-version 0.4
 Name:		texlive-embrac
-Version:	0.1b
+Version:	0.4
 Release:	1
 Summary:	Upright brackets in emphasised text
 Group:		Publishing
@@ -50,11 +50,3 @@ bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1b-1
-+ Revision: 813474
-- Import texlive-embrac
-- Import texlive-embrac
-
