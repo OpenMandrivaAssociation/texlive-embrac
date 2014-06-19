@@ -1,12 +1,12 @@
-# revision 30450
+# revision 33920
 # category Package
 # catalog-ctan /macros/latex/contrib/embrac
-# catalog-date 2013-05-13 20:07:16 +0200
+# catalog-date 2014-05-08 14:35:28 +0200
 # catalog-license lppl1.3
-# catalog-version 0.4
+# catalog-version 0.5
 Name:		texlive-embrac
-Version:	0.4
-Release:	6
+Version:	0.5
+Release:	1
 Summary:	Upright brackets in emphasised text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/embrac
