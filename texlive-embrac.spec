@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.5
 Name:		texlive-embrac
-Version:	0.5
-Release:	4
+Version:	0.7
+Release:	1
 Summary:	Upright brackets in emphasised text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/embrac
