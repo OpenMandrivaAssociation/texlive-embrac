@@ -1,18 +1,12 @@
-# revision 33920
-# category Package
-# catalog-ctan /macros/latex/contrib/embrac
-# catalog-date 2014-05-08 14:35:28 +0200
-# catalog-license lppl1.3
-# catalog-version 0.5
 Name:		texlive-embrac
-Version:	0.7
-Release:	3
+Version:	57814
+Release:	1
 Summary:	Upright brackets in emphasised text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/embrac
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/embrac.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/embrac.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/embrac.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/embrac.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ l3kernel bundle, and xparse and l3keys2e from the l3packages
 bundle.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -43,7 +37,7 @@ bundle.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
