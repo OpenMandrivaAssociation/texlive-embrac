@@ -1,6 +1,6 @@
 Name:		texlive-embrac
 Version:	57814
-Release:	1
+Release:	2
 Summary:	Upright brackets in emphasised text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/embrac
