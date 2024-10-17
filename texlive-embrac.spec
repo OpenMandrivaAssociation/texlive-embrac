@@ -3,7 +3,7 @@ Version:	57814
 Release:	2
 Summary:	Upright brackets in emphasised text
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/embrac
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/embrac
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/embrac.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/embrac.doc.r%{version}.tar.xz
